@@ -1,0 +1,2222 @@
+opcion=""
+while opcion!="Salir":
+    print("--------------------------------------------------------------")
+    print("Bienvenido!, elija una de las opciones que se le proporcionan acontinuacion :)")
+    print("Antes de empezar a usarme, si no lo hiciste antes, escribe a continuacion 'Reglas' para saber como usarme bien.")
+    print("Calculadora")
+    print("Cuentame un chiste")
+    print("Buscar en google (solo muestra urls)")
+    print("Buscar en wikipedia")
+    print("Juego Cho Han")
+    print("Redes sociales de mi creador")
+    print("Datos")
+    print("Pasar de decimal a binario")
+    print("Salir")
+    print("--------------------------------------------------------------")
+    opcion=input("Ingrese una opcion: ")
+    print("--------------------------------------------------------------")
+    
+    if (opcion=="Reglas"):
+        print("Para usarme correctamente debes cumplir los siguientes requisitos:")
+        print("Todas las palabras o frases que vayas a escribir en el terminal, escribelas con la primera letra en mayuscula siempre que puedas ya que si no puede que genere algun fallo.")
+        print("No debes ser pendejo para poder usarme.")
+        print("Ten paciencia conmigo porfa :(, aun faltan muchas cosas por pulir.")
+        print("Si vas a usarme, debe ser delante de mi creador Elamo51 o tambien conocido como Alex ;)")
+
+    if (opcion=="reglas"):
+        print("Para usarme correctamente debes cumplir los siguientes requisitos:")
+        print("Todas las palabras o frases que vayas a escribir en el terminal, escribelas con la primera letra en mayuscula siempre que puedas ya que si no puede que genere algun fallo.")
+        print("No debes ser pendejo para poder usarme.")
+        print("Ten paciencia conmigo porfa :(, aun faltan muchas cosas por pulir.")
+        print("Si vas a usarme, debe ser delante de mi creador Elamo51 o tambien conocido como Alex ;)")
+
+    if (opcion=="REGLAS"):
+        print("Para usarme correctamente debes cumplir los siguientes requisitos:")
+        print("Todas las palabras o frases que vayas a escribir en el terminal, escribelas con la primera letra en mayuscula siempre que puedas ya que si no puede que genere algun fallo.")
+        print("No debes ser pendejo para poder usarme.")
+        print("Ten paciencia conmigo porfa :(, aun faltan muchas cosas por pulir.")
+        print("Si vas a usarme, debe ser delante de mi creador Elamo51 o tambien conocido como Alex ;)")    
+
+
+    if (opcion=="Calculadora"):
+        while opcion!=("Nah, en realidad no quiero"):
+            print("Suma")
+            print("Resta")
+            print("Multiplicacion")
+            print("Division")
+            print("Division aproximada (resultados sin decimales)")
+            print("Potenciacion")
+            print("--------------------------------------------------------------")
+            print("Nah, en realidad no quiero")
+            print("--------------------------------------------------------------")
+            opcion=input("Ingrese una opcion: ")
+            
+            if (opcion=="Suma"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1+n2
+                print("La suma de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="suma"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1+n2
+                print("La suma de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="SUMA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1+n2
+                print("La suma de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Resta"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1-n2
+                print("La resta de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="resta"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1-n2
+                print("La resta de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="RESTA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1-n2
+                print("La resta de los numeros es:",total)
+                print("--------------------------------------------------------------")    
+            
+            if (opcion=="Multiplicacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="Multiplicación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="multiplicacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="multiplicación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="MULTIPLICACION"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="MULTIPLICACIÓN"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Division"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="División"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="division"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="división"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISION"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISIÓN"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Division aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="División aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="division aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="división aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISION APROXIMADA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISIÓN APROXIMADA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Division aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="División aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="division aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="división aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISION APROXIMADA (RESULTADO SIN DECIMALES)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISIÓN APROXIMADA (RESULTADO SIN DECIMALES)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Potenciacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="Potenciación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="potenciacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="potenciación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="POTENCIACION"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="POTENCIACIÓN"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+
+    if (opcion=="calculadora"):
+        while opcion!=("Nah, en realidad no quiero"):
+            print("Suma")
+            print("Resta")
+            print("Multiplicacion")
+            print("Division")
+            print("Division aproximada (resultados sin decimales)")
+            print("Potenciacion")
+            print("--------------------------------------------------------------")
+            print("Nah, en realidad no quiero")
+            print("--------------------------------------------------------------")
+            opcion=input("Ingrese una opcion: ")
+            
+            if (opcion=="Suma"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1+n2
+                print("La suma de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="suma"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1+n2
+                print("La suma de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="SUMA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1+n2
+                print("La suma de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Resta"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1-n2
+                print("La resta de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="resta"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1-n2
+                print("La resta de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="RESTA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1-n2
+                print("La resta de los numeros es:",total)
+                print("--------------------------------------------------------------")    
+            
+            if (opcion=="Multiplicacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="Multiplicación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="multiplicacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="multiplicación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="MULTIPLICACION"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="MULTIPLICACIÓN"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Division"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="División"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="division"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="división"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISION"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISIÓN"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Division aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="División aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="division aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="división aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISION APROXIMADA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISIÓN APROXIMADA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Division aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="División aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="division aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="división aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISION APROXIMADA (RESULTADO SIN DECIMALES)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISIÓN APROXIMADA (RESULTADO SIN DECIMALES)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Potenciacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="Potenciación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="potenciacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="potenciación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="POTENCIACION"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="POTENCIACIÓN"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+    
+    if (opcion=="Calculadora"):
+        while opcion!=("Nah, en realidad no quiero"):
+            print("Suma")
+            print("Resta")
+            print("Multiplicacion")
+            print("Division")
+            print("Division aproximada (resultados sin decimales)")
+            print("Potenciacion")
+            print("--------------------------------------------------------------")
+            print("Nah, en realidad no quiero")
+            print("--------------------------------------------------------------")
+            opcion=input("Ingrese una opcion: ")
+            
+            if (opcion=="Suma"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1+n2
+                print("La suma de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="suma"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1+n2
+                print("La suma de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="SUMA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1+n2
+                print("La suma de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Resta"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1-n2
+                print("La resta de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="resta"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1-n2
+                print("La resta de los numeros es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="RESTA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1-n2
+                print("La resta de los numeros es:",total)
+                print("--------------------------------------------------------------")    
+            
+            if (opcion=="Multiplicacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="Multiplicación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="multiplicacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="multiplicación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="MULTIPLICACION"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="MULTIPLICACIÓN"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1*n2
+                print("El resultado de la multiplicacion es:",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Division"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="División"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="division"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="división"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISION"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISIÓN"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1"))
+                n2=int(input("Ingrese numero 2"))
+                total=n1/n2
+                print("El resultado de la division es",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Division aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="División aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="division aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="división aproximada"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISION APROXIMADA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISIÓN APROXIMADA"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Division aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="División aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="division aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="división aproximada (resultados sin decimales)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISION APROXIMADA (RESULTADO SIN DECIMALES)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="DIVISIÓN APROXIMADA (RESULTADO SIN DECIMALES)"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total=n1//n2
+                print("El resultado de la division sin decimales es",total)
+                print("--------------------------------------------------------------")
+            
+            if (opcion=="Potenciacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="Potenciación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="potenciacion"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="potenciación"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="POTENCIACION"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+            if (opcion=="POTENCIACIÓN"):
+                print("--------------------------------------------------------------")
+                n1=int(input("Ingrese numero 1: "))
+                n2=int(input("Ingrese numero 2: "))
+                total= n1**n2
+                print("El resultado de la potenciacion es",total)
+                print("--------------------------------------------------------------")
+
+    
+    if (opcion=="Cuentame un chiste"):
+        while opcion!=("Nah, en realidad no quiero"):
+            print("Uno negro")
+            print("Uno de internet")
+            print("Nah, en realidad no quiero")
+            opcion=input("Ingrese una opcion: ")
+            
+            if (opcion=="Uno negro"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 6: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Cual es la unica diferencia entre un violador y un seductor?")
+                    print("La paciencia XDDDD")
+                    print("Dime que no es verdad XDDDD")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("Un hombre acude al hospital para un chequeo medico, tras un exaustivo examen, le diagnostican una enfermedad rara que le llevara a la muerte en poco tiempo.")
+                    print("El paciente pregunta:")
+                    print("-¿Que puedo hacer para curarme?")
+                    print("El medico repsonde:")
+                    print("+Te aconsejo baños de barro")
+                    print("-¿Y con eso me curaré?")
+                    print("+No pero te irás acostumbrando a la tierra")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("La mañana despues de navidad, y los dos niños que viven en el barrio, salen al patio a jugar con sus nuevos regalos.")
+                    print("Uno de los dos niños, juega con una peonza de madera, y el otro, con un Dron teledirigidocon camara y visor 3D")
+                    print("El niño del dron se rie del otro niño con la lengua fuera y le dice:")
+                    print("+Mi regalo es mejor, mi regalo es mejor...")
+                    print("A lo que el otro niño responde:")
+                    print("-Si, pero yo no tengo cáncer")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("¿Que tiene dos patas y sangra?")
+                    opcion=input("Venga dime: ")
+                    if (opcion=="Ns"):
+                        print("Medio perro :(")
+                        print("--------------------------------------------------------------")
+                    if (opcion=="ns"):
+                        print("Medio perro :(")
+                        print("---------------------------------------------------------------")
+                if (opcion=="5"):
+                    print("--------------------------------------------------------------")
+                    print("El medico llama por telefono a su paciente y le dice:")
+                    print("+Tengo dos noticias para usted, una mala y la otra peor")
+                    print("-Digame la mala")
+                    print("+Tras estudiar los resultados de las pruebas, a usted no le quedan apenas 24 horas de vida")
+                    print("-Que noticia tan terrible!! Seguro que la otra es peor?")
+                    print("+Si, llevo desde ayer tartando de contactarle")
+                    print("--------------------------------------------------------------")
+                if (opcion=="6"):
+                    print("--------------------------------------------------------------")
+                    print("En la consulta del doctor, el médico le dice al paciente:")
+                    print("-Si usted no deja de fumar, tendré que mandarle una placa de torax")
+                    print("+¿Una placa de tórax doctor?")
+                    print("-No, una placa de marmol con su nombre")
+                    print("--------------------------------------------------------------")
+
+            if (opcion=="uno negro"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 6: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Cual es la unica diferencia entre un violador y un seductor?")
+                    print("La paciencia XDDDD")
+                    print("Dime que no es verdad XDDDD")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("Un hombre acude al hospital para un chequeo medico, tras un exaustivo examen, le diagnostican una enfermedad rara que le llevara a la muerte en poco tiempo.")
+                    print("El paciente pregunta:")
+                    print("-¿Que puedo hacer para curarme?")
+                    print("El medico repsonde:")
+                    print("+Te aconsejo baños de barro")
+                    print("-¿Y con eso me curaré?")
+                    print("+No pero te irás acostumbrando a la tierra")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("La mañana despues de navidad, y los dos niños que viven en el barrio, salen al patio a jugar con sus nuevos regalos.")
+                    print("Uno de los dos niños, juega con una peonza de madera, y el otro, con un Dron teledirigidocon camara y visor 3D")
+                    print("El niño del dron se rie del otro niño con la lengua fuera y le dice:")
+                    print("+Mi regalo es mejor, mi regalo es mejor...")
+                    print("A lo que el otro niño responde:")
+                    print("-Si, pero yo no tengo cáncer")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("¿Que tiene dos patas y sangra?")
+                    opcion=input("Venga dime: ")
+                    if (opcion=="Ns"):
+                        print("Medio perro :(")
+                        print("--------------------------------------------------------------")
+                    if (opcion=="ns"):
+                        print("Medio perro :(")
+                        print("---------------------------------------------------------------")
+                if (opcion=="5"):
+                    print("--------------------------------------------------------------")
+                    print("El medico llama por telefono a su paciente y le dice:")
+                    print("+Tengo dos noticias para usted, una mala y la otra peor")
+                    print("-Digame la mala")
+                    print("+Tras estudiar los resultados de las pruebas, a usted no le quedan apenas 24 horas de vida")
+                    print("-Que noticia tan terrible!! Seguro que la otra es peor?")
+                    print("+Si, llevo desde ayer tartando de contactarle")
+                    print("--------------------------------------------------------------")
+                if (opcion=="6"):
+                    print("--------------------------------------------------------------")
+                    print("En la consulta del doctor, el médico le dice al paciente:")
+                    print("-Si usted no deja de fumar, tendré que mandarle una placa de torax")
+                    print("+¿Una placa de tórax doctor?")
+                    print("-No, una placa de marmol con su nombre")
+                    print("--------------------------------------------------------------")
+                
+            if (opcion=="UNO NEGRO"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 6: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Cual es la unica diferencia entre un violador y un seductor?")
+                    print("La paciencia XDDDD")
+                    print("Dime que no es verdad XDDDD")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("Un hombre acude al hospital para un chequeo medico, tras un exaustivo examen, le diagnostican una enfermedad rara que le llevara a la muerte en poco tiempo.")
+                    print("El paciente pregunta:")
+                    print("-¿Que puedo hacer para curarme?")
+                    print("El medico repsonde:")
+                    print("+Te aconsejo baños de barro")
+                    print("-¿Y con eso me curaré?")
+                    print("+No pero te irás acostumbrando a la tierra")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("La mañana despues de navidad, y los dos niños que viven en el barrio, salen al patio a jugar con sus nuevos regalos.")
+                    print("Uno de los dos niños, juega con una peonza de madera, y el otro, con un Dron teledirigidocon camara y visor 3D")
+                    print("El niño del dron se rie del otro niño con la lengua fuera y le dice:")
+                    print("+Mi regalo es mejor, mi regalo es mejor...")
+                    print("A lo que el otro niño responde:")
+                    print("-Si, pero yo no tengo cáncer")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("¿Que tiene dos patas y sangra?")
+                    opcion=input("Venga dime: ")
+                    if (opcion=="Ns"):
+                        print("Medio perro :(")
+                        print("--------------------------------------------------------------")
+                    if (opcion=="ns"):
+                        print("Medio perro :(")
+                        print("---------------------------------------------------------------")
+                if (opcion=="5"):
+                    print("--------------------------------------------------------------")
+                    print("El medico llama por telefono a su paciente y le dice:")
+                    print("+Tengo dos noticias para usted, una mala y la otra peor")
+                    print("-Digame la mala")
+                    print("+Tras estudiar los resultados de las pruebas, a usted no le quedan apenas 24 horas de vida")
+                    print("-Que noticia tan terrible!! Seguro que la otra es peor?")
+                    print("+Si, llevo desde ayer tartando de contactarle")
+                    print("--------------------------------------------------------------")
+                if (opcion=="6"):
+                    print("--------------------------------------------------------------")
+                    print("En la consulta del doctor, el médico le dice al paciente:")
+                    print("-Si usted no deja de fumar, tendré que mandarle una placa de torax")
+                    print("+¿Una placa de tórax doctor?")
+                    print("-No, una placa de marmol con su nombre")
+                    print("--------------------------------------------------------------")
+
+
+            if (opcion=="Uno de internet"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 4: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Por qué las focas del circo miran siempre hacia arriba?")
+                    print("Porque es donde estan los focos")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("+¿Por qué estás hablando con esas zapatillas?")
+                    print("-Porque pone converse")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("Un niño llega a casa y le dice a su padre:")
+                    print("+Papá, papá, en el colegio me llaman 'peludo'")
+                    print("A lo que el padre responde:")
+                    print("-Mariaaa, ven corre, que el perro habla")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("En una discoteca, un hombre se acerca a dos mujeres que estaban tomando una copa en la barra. Una era muy fea y la otra guapa")
+                    print("El hombre primero le habla a la guapa:")
+                    print("-Hola muñeca, ¿Bailas?")
+                    print("+No")
+                    print("-¿Y eso?")
+                    print("+Eso es mi hermana y tampoco baila!")
+                    print("--------------------------------------------------------------")
+
+            if (opcion=="uno de internet"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 4: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Por qué las focas del circo miran siempre hacia arriba?")
+                    print("Porque es donde estan los focos")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("+¿Por qué estás hablando con esas zapatillas?")
+                    print("-Porque pone converse")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("Un niño llega a casa y le dice a su padre:")
+                    print("+Papá, papá, en el colegio me llaman 'peludo'")
+                    print("A lo que el padre responde:")
+                    print("-Mariaaa, ven corre, que el perro habla")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("En una discoteca, un hombre se acerca a dos mujeres que estaban tomando una copa en la barra. Una era muy fea y la otra guapa")
+                    print("El hombre primero le habla a la guapa:")
+                    print("-Hola muñeca, ¿Bailas?")
+                    print("+No")
+                    print("-¿Y eso?")
+                    print("+Eso es mi hermana y tampoco baila!")
+                    print("--------------------------------------------------------------")
+                
+            if (opcion=="UNO DE INTERNET"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 4: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Por qué las focas del circo miran siempre hacia arriba?")
+                    print("Porque es donde estan los focos")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("+¿Por qué estás hablando con esas zapatillas?")
+                    print("-Porque pone converse")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("Un niño llega a casa y le dice a su padre:")
+                    print("+Papá, papá, en el colegio me llaman 'peludo'")
+                    print("A lo que el padre responde:")
+                    print("-Mariaaa, ven corre, que el perro habla")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("En una discoteca, un hombre se acerca a dos mujeres que estaban tomando una copa en la barra. Una era muy fea y la otra guapa")
+                    print("El hombre primero le habla a la guapa:")
+                    print("-Hola muñeca, ¿Bailas?")
+                    print("+No")
+                    print("-¿Y eso?")
+                    print("+Eso es mi hermana y tampoco baila!")
+                    print("--------------------------------------------------------------")
+                
+    if (opcion=="cuentame un chiste"):
+        while opcion!=("Nah, en realidad no quiero"):
+            print("Uno negro")
+            print("Uno de internet")
+            print("Nah, en realidad no quiero")
+            opcion=input("Ingrese una opcion: ")
+            
+            if (opcion=="Uno negro"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 6: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Cual es la unica diferencia entre un violador y un seductor?")
+                    print("La paciencia XDDDD")
+                    print("Dime que no es verdad XDDDD")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("Un hombre acude al hospital para un chequeo medico, tras un exaustivo examen, le diagnostican una enfermedad rara que le llevara a la muerte en poco tiempo.")
+                    print("El paciente pregunta:")
+                    print("-¿Que puedo hacer para curarme?")
+                    print("El medico repsonde:")
+                    print("+Te aconsejo baños de barro")
+                    print("-¿Y con eso me curaré?")
+                    print("+No pero te irás acostumbrando a la tierra")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("La mañana despues de navidad, y los dos niños que viven en el barrio, salen al patio a jugar con sus nuevos regalos.")
+                    print("Uno de los dos niños, juega con una peonza de madera, y el otro, con un Dron teledirigidocon camara y visor 3D")
+                    print("El niño del dron se rie del otro niño con la lengua fuera y le dice:")
+                    print("+Mi regalo es mejor, mi regalo es mejor...")
+                    print("A lo que el otro niño responde:")
+                    print("-Si, pero yo no tengo cáncer")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("¿Que tiene dos patas y sangra?")
+                    opcion=input("Venga dime: ")
+                    if (opcion=="Ns"):
+                        print("Medio perro :(")
+                        print("--------------------------------------------------------------")
+                    if (opcion=="ns"):
+                        print("Medio perro :(")
+                        print("---------------------------------------------------------------")
+                if (opcion=="5"):
+                    print("--------------------------------------------------------------")
+                    print("El medico llama por telefono a su paciente y le dice:")
+                    print("+Tengo dos noticias para usted, una mala y la otra peor")
+                    print("-Digame la mala")
+                    print("+Tras estudiar los resultados de las pruebas, a usted no le quedan apenas 24 horas de vida")
+                    print("-Que noticia tan terrible!! Seguro que la otra es peor?")
+                    print("+Si, llevo desde ayer tartando de contactarle")
+                    print("--------------------------------------------------------------")
+                if (opcion=="6"):
+                    print("--------------------------------------------------------------")
+                    print("En la consulta del doctor, el médico le dice al paciente:")
+                    print("-Si usted no deja de fumar, tendré que mandarle una placa de torax")
+                    print("+¿Una placa de tórax doctor?")
+                    print("-No, una placa de marmol con su nombre")
+                    print("--------------------------------------------------------------")
+
+            if (opcion=="uno negro"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 6: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Cual es la unica diferencia entre un violador y un seductor?")
+                    print("La paciencia XDDDD")
+                    print("Dime que no es verdad XDDDD")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("Un hombre acude al hospital para un chequeo medico, tras un exaustivo examen, le diagnostican una enfermedad rara que le llevara a la muerte en poco tiempo.")
+                    print("El paciente pregunta:")
+                    print("-¿Que puedo hacer para curarme?")
+                    print("El medico repsonde:")
+                    print("+Te aconsejo baños de barro")
+                    print("-¿Y con eso me curaré?")
+                    print("+No pero te irás acostumbrando a la tierra")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("La mañana despues de navidad, y los dos niños que viven en el barrio, salen al patio a jugar con sus nuevos regalos.")
+                    print("Uno de los dos niños, juega con una peonza de madera, y el otro, con un Dron teledirigidocon camara y visor 3D")
+                    print("El niño del dron se rie del otro niño con la lengua fuera y le dice:")
+                    print("+Mi regalo es mejor, mi regalo es mejor...")
+                    print("A lo que el otro niño responde:")
+                    print("-Si, pero yo no tengo cáncer")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("¿Que tiene dos patas y sangra?")
+                    opcion=input("Venga dime: ")
+                    if (opcion=="Ns"):
+                        print("Medio perro :(")
+                        print("--------------------------------------------------------------")
+                    if (opcion=="ns"):
+                        print("Medio perro :(")
+                        print("---------------------------------------------------------------")
+                if (opcion=="5"):
+                    print("--------------------------------------------------------------")
+                    print("El medico llama por telefono a su paciente y le dice:")
+                    print("+Tengo dos noticias para usted, una mala y la otra peor")
+                    print("-Digame la mala")
+                    print("+Tras estudiar los resultados de las pruebas, a usted no le quedan apenas 24 horas de vida")
+                    print("-Que noticia tan terrible!! Seguro que la otra es peor?")
+                    print("+Si, llevo desde ayer tartando de contactarle")
+                    print("--------------------------------------------------------------")
+                if (opcion=="6"):
+                    print("--------------------------------------------------------------")
+                    print("En la consulta del doctor, el médico le dice al paciente:")
+                    print("-Si usted no deja de fumar, tendré que mandarle una placa de torax")
+                    print("+¿Una placa de tórax doctor?")
+                    print("-No, una placa de marmol con su nombre")
+                    print("--------------------------------------------------------------")
+                
+            if (opcion=="UNO NEGRO"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 6: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Cual es la unica diferencia entre un violador y un seductor?")
+                    print("La paciencia XDDDD")
+                    print("Dime que no es verdad XDDDD")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("Un hombre acude al hospital para un chequeo medico, tras un exaustivo examen, le diagnostican una enfermedad rara que le llevara a la muerte en poco tiempo.")
+                    print("El paciente pregunta:")
+                    print("-¿Que puedo hacer para curarme?")
+                    print("El medico repsonde:")
+                    print("+Te aconsejo baños de barro")
+                    print("-¿Y con eso me curaré?")
+                    print("+No pero te irás acostumbrando a la tierra")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("La mañana despues de navidad, y los dos niños que viven en el barrio, salen al patio a jugar con sus nuevos regalos.")
+                    print("Uno de los dos niños, juega con una peonza de madera, y el otro, con un Dron teledirigidocon camara y visor 3D")
+                    print("El niño del dron se rie del otro niño con la lengua fuera y le dice:")
+                    print("+Mi regalo es mejor, mi regalo es mejor...")
+                    print("A lo que el otro niño responde:")
+                    print("-Si, pero yo no tengo cáncer")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("¿Que tiene dos patas y sangra?")
+                    opcion=input("Venga dime: ")
+                    if (opcion=="Ns"):
+                        print("Medio perro :(")
+                        print("--------------------------------------------------------------")
+                    if (opcion=="ns"):
+                        print("Medio perro :(")
+                        print("---------------------------------------------------------------")
+                if (opcion=="5"):
+                    print("--------------------------------------------------------------")
+                    print("El medico llama por telefono a su paciente y le dice:")
+                    print("+Tengo dos noticias para usted, una mala y la otra peor")
+                    print("-Digame la mala")
+                    print("+Tras estudiar los resultados de las pruebas, a usted no le quedan apenas 24 horas de vida")
+                    print("-Que noticia tan terrible!! Seguro que la otra es peor?")
+                    print("+Si, llevo desde ayer tartando de contactarle")
+                    print("--------------------------------------------------------------")
+                if (opcion=="6"):
+                    print("--------------------------------------------------------------")
+                    print("En la consulta del doctor, el médico le dice al paciente:")
+                    print("-Si usted no deja de fumar, tendré que mandarle una placa de torax")
+                    print("+¿Una placa de tórax doctor?")
+                    print("-No, una placa de marmol con su nombre")
+                    print("--------------------------------------------------------------")
+
+
+            if (opcion=="Uno de internet"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 4: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Por qué las focas del circo miran siempre hacia arriba?")
+                    print("Porque es donde estan los focos")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("+¿Por qué estás hablando con esas zapatillas?")
+                    print("-Porque pone converse")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("Un niño llega a casa y le dice a su padre:")
+                    print("+Papá, papá, en el colegio me llaman 'peludo'")
+                    print("A lo que el padre responde:")
+                    print("-Mariaaa, ven corre, que el perro habla")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("En una discoteca, un hombre se acerca a dos mujeres que estaban tomando una copa en la barra. Una era muy fea y la otra guapa")
+                    print("El hombre primero le habla a la guapa:")
+                    print("-Hola muñeca, ¿Bailas?")
+                    print("+No")
+                    print("-¿Y eso?")
+                    print("+Eso es mi hermana y tampoco baila!")
+                    print("--------------------------------------------------------------")
+
+            if (opcion=="uno de internet"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 4: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Por qué las focas del circo miran siempre hacia arriba?")
+                    print("Porque es donde estan los focos")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("+¿Por qué estás hablando con esas zapatillas?")
+                    print("-Porque pone converse")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("Un niño llega a casa y le dice a su padre:")
+                    print("+Papá, papá, en el colegio me llaman 'peludo'")
+                    print("A lo que el padre responde:")
+                    print("-Mariaaa, ven corre, que el perro habla")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("En una discoteca, un hombre se acerca a dos mujeres que estaban tomando una copa en la barra. Una era muy fea y la otra guapa")
+                    print("El hombre primero le habla a la guapa:")
+                    print("-Hola muñeca, ¿Bailas?")
+                    print("+No")
+                    print("-¿Y eso?")
+                    print("+Eso es mi hermana y tampoco baila!")
+                    print("--------------------------------------------------------------")
+                
+            if (opcion=="UNO DE INTERNET"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 4: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Por qué las focas del circo miran siempre hacia arriba?")
+                    print("Porque es donde estan los focos")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("+¿Por qué estás hablando con esas zapatillas?")
+                    print("-Porque pone converse")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("Un niño llega a casa y le dice a su padre:")
+                    print("+Papá, papá, en el colegio me llaman 'peludo'")
+                    print("A lo que el padre responde:")
+                    print("-Mariaaa, ven corre, que el perro habla")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("En una discoteca, un hombre se acerca a dos mujeres que estaban tomando una copa en la barra. Una era muy fea y la otra guapa")
+                    print("El hombre primero le habla a la guapa:")
+                    print("-Hola muñeca, ¿Bailas?")
+                    print("+No")
+                    print("-¿Y eso?")
+                    print("+Eso es mi hermana y tampoco baila!")
+                    print("--------------------------------------------------------------")
+                
+    if (opcion=="CUENTAME UN CHISTE"):
+        while opcion!=("Nah, en realidad no quiero"):
+            print("Uno negro")
+            print("Uno de internet")
+            print("Nah, en realidad no quiero")
+            opcion=input("Ingrese una opcion: ")
+            
+            if (opcion=="Uno negro"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 6: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Cual es la unica diferencia entre un violador y un seductor?")
+                    print("La paciencia XDDDD")
+                    print("Dime que no es verdad XDDDD")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("Un hombre acude al hospital para un chequeo medico, tras un exaustivo examen, le diagnostican una enfermedad rara que le llevara a la muerte en poco tiempo.")
+                    print("El paciente pregunta:")
+                    print("-¿Que puedo hacer para curarme?")
+                    print("El medico repsonde:")
+                    print("+Te aconsejo baños de barro")
+                    print("-¿Y con eso me curaré?")
+                    print("+No pero te irás acostumbrando a la tierra")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("La mañana despues de navidad, y los dos niños que viven en el barrio, salen al patio a jugar con sus nuevos regalos.")
+                    print("Uno de los dos niños, juega con una peonza de madera, y el otro, con un Dron teledirigidocon camara y visor 3D")
+                    print("El niño del dron se rie del otro niño con la lengua fuera y le dice:")
+                    print("+Mi regalo es mejor, mi regalo es mejor...")
+                    print("A lo que el otro niño responde:")
+                    print("-Si, pero yo no tengo cáncer")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("¿Que tiene dos patas y sangra?")
+                    opcion=input("Venga dime: ")
+                    if (opcion=="Ns"):
+                        print("Medio perro :(")
+                        print("--------------------------------------------------------------")
+                    if (opcion=="ns"):
+                        print("Medio perro :(")
+                        print("---------------------------------------------------------------")
+                if (opcion=="5"):
+                    print("--------------------------------------------------------------")
+                    print("El medico llama por telefono a su paciente y le dice:")
+                    print("+Tengo dos noticias para usted, una mala y la otra peor")
+                    print("-Digame la mala")
+                    print("+Tras estudiar los resultados de las pruebas, a usted no le quedan apenas 24 horas de vida")
+                    print("-Que noticia tan terrible!! Seguro que la otra es peor?")
+                    print("+Si, llevo desde ayer tartando de contactarle")
+                    print("--------------------------------------------------------------")
+                if (opcion=="6"):
+                    print("--------------------------------------------------------------")
+                    print("En la consulta del doctor, el médico le dice al paciente:")
+                    print("-Si usted no deja de fumar, tendré que mandarle una placa de torax")
+                    print("+¿Una placa de tórax doctor?")
+                    print("-No, una placa de marmol con su nombre")
+                    print("--------------------------------------------------------------")
+
+            if (opcion=="uno negro"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 6: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Cual es la unica diferencia entre un violador y un seductor?")
+                    print("La paciencia XDDDD")
+                    print("Dime que no es verdad XDDDD")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("Un hombre acude al hospital para un chequeo medico, tras un exaustivo examen, le diagnostican una enfermedad rara que le llevara a la muerte en poco tiempo.")
+                    print("El paciente pregunta:")
+                    print("-¿Que puedo hacer para curarme?")
+                    print("El medico repsonde:")
+                    print("+Te aconsejo baños de barro")
+                    print("-¿Y con eso me curaré?")
+                    print("+No pero te irás acostumbrando a la tierra")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("La mañana despues de navidad, y los dos niños que viven en el barrio, salen al patio a jugar con sus nuevos regalos.")
+                    print("Uno de los dos niños, juega con una peonza de madera, y el otro, con un Dron teledirigidocon camara y visor 3D")
+                    print("El niño del dron se rie del otro niño con la lengua fuera y le dice:")
+                    print("+Mi regalo es mejor, mi regalo es mejor...")
+                    print("A lo que el otro niño responde:")
+                    print("-Si, pero yo no tengo cáncer")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("¿Que tiene dos patas y sangra?")
+                    opcion=input("Venga dime: ")
+                    if (opcion=="Ns"):
+                        print("Medio perro :(")
+                        print("--------------------------------------------------------------")
+                    if (opcion=="ns"):
+                        print("Medio perro :(")
+                        print("---------------------------------------------------------------")
+                if (opcion=="5"):
+                    print("--------------------------------------------------------------")
+                    print("El medico llama por telefono a su paciente y le dice:")
+                    print("+Tengo dos noticias para usted, una mala y la otra peor")
+                    print("-Digame la mala")
+                    print("+Tras estudiar los resultados de las pruebas, a usted no le quedan apenas 24 horas de vida")
+                    print("-Que noticia tan terrible!! Seguro que la otra es peor?")
+                    print("+Si, llevo desde ayer tartando de contactarle")
+                    print("--------------------------------------------------------------")
+                if (opcion=="6"):
+                    print("--------------------------------------------------------------")
+                    print("En la consulta del doctor, el médico le dice al paciente:")
+                    print("-Si usted no deja de fumar, tendré que mandarle una placa de torax")
+                    print("+¿Una placa de tórax doctor?")
+                    print("-No, una placa de marmol con su nombre")
+                    print("--------------------------------------------------------------")
+                
+            if (opcion=="UNO NEGRO"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 6: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Cual es la unica diferencia entre un violador y un seductor?")
+                    print("La paciencia XDDDD")
+                    print("Dime que no es verdad XDDDD")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("Un hombre acude al hospital para un chequeo medico, tras un exaustivo examen, le diagnostican una enfermedad rara que le llevara a la muerte en poco tiempo.")
+                    print("El paciente pregunta:")
+                    print("-¿Que puedo hacer para curarme?")
+                    print("El medico repsonde:")
+                    print("+Te aconsejo baños de barro")
+                    print("-¿Y con eso me curaré?")
+                    print("+No pero te irás acostumbrando a la tierra")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("La mañana despues de navidad, y los dos niños que viven en el barrio, salen al patio a jugar con sus nuevos regalos.")
+                    print("Uno de los dos niños, juega con una peonza de madera, y el otro, con un Dron teledirigidocon camara y visor 3D")
+                    print("El niño del dron se rie del otro niño con la lengua fuera y le dice:")
+                    print("+Mi regalo es mejor, mi regalo es mejor...")
+                    print("A lo que el otro niño responde:")
+                    print("-Si, pero yo no tengo cáncer")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("¿Que tiene dos patas y sangra?")
+                    opcion=input("Venga dime: ")
+                    if (opcion=="Ns"):
+                        print("Medio perro :(")
+                        print("--------------------------------------------------------------")
+                    if (opcion=="ns"):
+                        print("Medio perro :(")
+                        print("---------------------------------------------------------------")
+                if (opcion=="5"):
+                    print("--------------------------------------------------------------")
+                    print("El medico llama por telefono a su paciente y le dice:")
+                    print("+Tengo dos noticias para usted, una mala y la otra peor")
+                    print("-Digame la mala")
+                    print("+Tras estudiar los resultados de las pruebas, a usted no le quedan apenas 24 horas de vida")
+                    print("-Que noticia tan terrible!! Seguro que la otra es peor?")
+                    print("+Si, llevo desde ayer tartando de contactarle")
+                    print("--------------------------------------------------------------")
+                if (opcion=="6"):
+                    print("--------------------------------------------------------------")
+                    print("En la consulta del doctor, el médico le dice al paciente:")
+                    print("-Si usted no deja de fumar, tendré que mandarle una placa de torax")
+                    print("+¿Una placa de tórax doctor?")
+                    print("-No, una placa de marmol con su nombre")
+                    print("--------------------------------------------------------------")
+
+
+            if (opcion=="Uno de internet"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 4: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Por qué las focas del circo miran siempre hacia arriba?")
+                    print("Porque es donde estan los focos")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("+¿Por qué estás hablando con esas zapatillas?")
+                    print("-Porque pone converse")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("Un niño llega a casa y le dice a su padre:")
+                    print("+Papá, papá, en el colegio me llaman 'peludo'")
+                    print("A lo que el padre responde:")
+                    print("-Mariaaa, ven corre, que el perro habla")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("En una discoteca, un hombre se acerca a dos mujeres que estaban tomando una copa en la barra. Una era muy fea y la otra guapa")
+                    print("El hombre primero le habla a la guapa:")
+                    print("-Hola muñeca, ¿Bailas?")
+                    print("+No")
+                    print("-¿Y eso?")
+                    print("+Eso es mi hermana y tampoco baila!")
+                    print("--------------------------------------------------------------")
+
+            if (opcion=="uno de internet"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 4: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Por qué las focas del circo miran siempre hacia arriba?")
+                    print("Porque es donde estan los focos")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("+¿Por qué estás hablando con esas zapatillas?")
+                    print("-Porque pone converse")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("Un niño llega a casa y le dice a su padre:")
+                    print("+Papá, papá, en el colegio me llaman 'peludo'")
+                    print("A lo que el padre responde:")
+                    print("-Mariaaa, ven corre, que el perro habla")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("En una discoteca, un hombre se acerca a dos mujeres que estaban tomando una copa en la barra. Una era muy fea y la otra guapa")
+                    print("El hombre primero le habla a la guapa:")
+                    print("-Hola muñeca, ¿Bailas?")
+                    print("+No")
+                    print("-¿Y eso?")
+                    print("+Eso es mi hermana y tampoco baila!")
+                    print("--------------------------------------------------------------")
+                
+            if (opcion=="UNO DE INTERNET"):
+                opcion=input("Ingrese el numero del chiste que quieres que te diga, hay hasta el numero 4: ")
+                if (opcion=="1"):
+                    print("--------------------------------------------------------------")
+                    print("¿Por qué las focas del circo miran siempre hacia arriba?")
+                    print("Porque es donde estan los focos")
+                    print("--------------------------------------------------------------")
+                if (opcion=="2"):
+                    print("--------------------------------------------------------------")
+                    print("+¿Por qué estás hablando con esas zapatillas?")
+                    print("-Porque pone converse")
+                    print("--------------------------------------------------------------")
+                if (opcion=="3"):
+                    print("--------------------------------------------------------------")
+                    print("Un niño llega a casa y le dice a su padre:")
+                    print("+Papá, papá, en el colegio me llaman 'peludo'")
+                    print("A lo que el padre responde:")
+                    print("-Mariaaa, ven corre, que el perro habla")
+                    print("--------------------------------------------------------------")
+                if (opcion=="4"):
+                    print("--------------------------------------------------------------")
+                    print("En una discoteca, un hombre se acerca a dos mujeres que estaban tomando una copa en la barra. Una era muy fea y la otra guapa")
+                    print("El hombre primero le habla a la guapa:")
+                    print("-Hola muñeca, ¿Bailas?")
+                    print("+No")
+                    print("-¿Y eso?")
+                    print("+Eso es mi hermana y tampoco baila!")
+                    print("--------------------------------------------------------------")
+
+
+    if (opcion=="Buscar en google"):
+        from googlesearch import search
+        google_query = str(input("Porfavor escriba que quiere buscar en google: "))
+        print("Sabias que en las foma en la cual te voy a mostrar las busquedas coincidentes es como se encontraban hace aproximadamente 15 años??")
+        print("Que rapido pasa el tiempo, no crees?")
+        for i in search(google_query, start = 0, pause = 2):
+            print(i)
+        print("--------------------------------------------------------------")
+
+    if (opcion=="buscar en google"):
+        from googlesearch import search
+        google_query = str(input("Porfavor escriba que quiere buscar en google: "))
+        print("Sabias que en las foma en la cual te voy a mostrar las busquedas coincidentes es como se encontraban hace aproximadamente 15 años??")
+        print("Que rapido pasa el tiempo, no crees?")
+        for i in search(google_query, start = 0, pause = 2):
+            print(i)
+        print("--------------------------------------------------------------")
+
+    if (opcion=="BUSCAR EN GOOGLE"):
+        from googlesearch import search
+        google_query = str(input("Porfavor escriba que quiere buscar en google: "))
+        print("Sabias que en las foma en la cual te voy a mostrar las busquedas coincidentes es como se encontraban hace aproximadamente 15 años??")
+        print("Que rapido pasa el tiempo, no crees?")
+        for i in search(google_query, start = 0, pause = 2):
+            print(i)
+        print("--------------------------------------------------------------")
+
+    if (opcion=="Buscar en wikipedia"):
+        import wikipedia
+        wikipedia.set_lang("es")
+        resultado = wikipedia.page(input("Escriba lo que desea buscar en Wikipedia: "))
+        print(" ")
+        print(resultado.summary)
+        print("--------------------------------------------------------------")
+
+    if (opcion=="buscar en wikipedia"):
+        import wikipedia
+        wikipedia.set_lang("es")
+        resultado = wikipedia.page(input("Escriba lo que desea buscar en Wikipedia: "))
+        print(" ")
+        print(resultado.summary)
+        print("--------------------------------------------------------------")
+    
+    if (opcion=="BUSCAR EN WIKIPEDIA"):
+        import wikipedia
+        wikipedia.set_lang("es")
+        resultado = wikipedia.page(input("Escriba lo que desea buscar en Wikipedia: "))
+        print(" ")
+        print(resultado.summary)
+        print("--------------------------------------------------------------")
+
+    if (opcion=="Juego Cho Han"):
+        import random as rd
+        billetera=10
+        gana=0
+        continuar="si"
+        print("---Bienvenido a Cho Han---")
+        print("Usted tiene ${} en la billetera".format(billetera))
+        while billetera>0 and continuar=="si":
+            apuesta=int(input("Ingrese apuesta: "))
+            if apuesta <= billetera:
+                dado1=rd.randint(1,6)
+                dado2=rd.randint(1,6)
+                total=dado1=dado2
+                resto=total%2
+                parimpar=input("Adivina ¿par o impar? ")
+                print("Salió: {} + {} + {}". format(dado1,dado2,total))
+            if resto==0 and parimpar=="par":
+                print("Gano!!")
+                billetera+=apuesta
+                gana+=1
+            elif resto!=0 and parimpar=="impar":
+                print("Gano! :D")
+                billetera+=apuesta
+                gana=+1
+            else:
+                print("Perdió :'(")
+                billetera-=apuesta
+                print("Billetera: {}".format(billetera))
+                print("--------------------------------------------------------------")
+            if billetera!=0:
+                continuar = input ("¿Desea seguir jugando?")
+                print("--------------------------------------------------------------")
+        else:
+            print("La apuesta es mayor que el dinero que tiene en la billetera (si esto te aparece cuando terminas el juego no hagas ni caso :>")
+            print("Usted ganó {} partidas".format(gana))
+            print("Gracias por jugar :>")
+            print("--------------------------------------------------------------")
+    
+    if (opcion=="juego cho han"):
+        import random as rd
+        billetera=10
+        gana=0
+        continuar="si"
+        print("---Bienvenido a Cho Han---")
+        print("Usted tiene ${} en la billetera".format(billetera))
+        while billetera>0 and continuar=="si":
+            apuesta=int(input("Ingrese apuesta: "))
+            if apuesta <= billetera:
+                dado1=rd.randint(1,6)
+                dado2=rd.randint(1,6)
+                total=dado1=dado2
+                resto=total%2
+                parimpar=input("Adivina ¿par o impar? ")
+                print("Salió: {} + {} + {}". format(dado1,dado2,total))
+            if resto==0 and parimpar=="par":
+                print("Gano!!")
+                billetera+=apuesta
+                gana+=1
+            elif resto!=0 and parimpar=="impar":
+                print("Gano! :D")
+                billetera+=apuesta
+                gana=+1
+            else:
+                print("Perdió :'(")
+                billetera-=apuesta
+                print("Billetera: {}".format(billetera))
+                print("--------------------------------------------------------------")
+            if billetera!=0:
+                continuar = input ("¿Desea seguir jugando?")
+                print("--------------------------------------------------------------")
+        else:
+            print("La apuesta es mayor que el dinero que tiene en la billetera (si esto te aparece cuando terminas el juego no hagas ni caso :>")
+            print("Usted ganó {} partidas".format(gana))
+            print("Gracias por jugar :>")
+            print("--------------------------------------------------------------")
+    
+    if (opcion=="JUEGO CHO HAN"):
+        import random as rd
+        billetera=10
+        gana=0
+        continuar="si"
+        print("---Bienvenido a Cho Han---")
+        print("Usted tiene ${} en la billetera".format(billetera))
+        while billetera>0 and continuar=="si":
+            apuesta=int(input("Ingrese apuesta: "))
+            if apuesta <= billetera:
+                dado1=rd.randint(1,6)
+                dado2=rd.randint(1,6)
+                total=dado1=dado2
+                resto=total%2
+                parimpar=input("Adivina ¿par o impar? ")
+                print("Salió: {} + {} + {}". format(dado1,dado2,total))
+            if resto==0 and parimpar=="par":
+                print("Gano!!")
+                billetera+=apuesta
+                gana+=1
+            elif resto!=0 and parimpar=="impar":
+                print("Gano! :D")
+                billetera+=apuesta
+                gana=+1
+            else:
+                print("Perdió :'(")
+                billetera-=apuesta
+                print("Billetera: {}".format(billetera))
+                print("--------------------------------------------------------------")
+            if billetera!=0:
+                continuar = input ("¿Desea seguir jugando?")
+                print("--------------------------------------------------------------")
+        else:
+            print("La apuesta es mayor que el dinero que tiene en la billetera (si esto te aparece cuando terminas el juego no hagas ni caso :>")
+            print("Usted ganó {} partidas".format(gana))
+            print("Gracias por jugar :>")
+            print("--------------------------------------------------------------")
+    
+    if (opcion=="Juego ChoHan"):
+        import random as rd
+        billetera=10
+        gana=0
+        continuar="si"
+        print("---Bienvenido a Cho Han---")
+        print("Usted tiene ${} en la billetera".format(billetera))
+        while billetera>0 and continuar=="si":
+            apuesta=int(input("Ingrese apuesta: "))
+            if apuesta <= billetera:
+                dado1=rd.randint(1,6)
+                dado2=rd.randint(1,6)
+                total=dado1=dado2
+                resto=total%2
+                parimpar=input("Adivina ¿par o impar? ")
+                print("Salió: {} + {} + {}". format(dado1,dado2,total))
+            if resto==0 and parimpar=="par":
+                print("Gano!!")
+                billetera+=apuesta
+                gana+=1
+            elif resto!=0 and parimpar=="impar":
+                print("Gano! :D")
+                billetera+=apuesta
+                gana=+1
+            else:
+                print("Perdió :'(")
+                billetera-=apuesta
+                print("Billetera: {}".format(billetera))
+                print("--------------------------------------------------------------")
+            if billetera!=0:
+                continuar = input ("¿Desea seguir jugando?")
+                print("--------------------------------------------------------------")
+        else:
+            print("La apuesta es mayor que el dinero que tiene en la billetera (si esto te aparece cuando terminas el juego no hagas ni caso :>")
+            print("Usted ganó {} partidas".format(gana))
+            print("Gracias por jugar :>")
+            print("--------------------------------------------------------------")
+
+    if (opcion=="juego chohan"):
+        import random as rd
+        billetera=10
+        gana=0
+        continuar="si"
+        print("---Bienvenido a Cho Han---")
+        print("Usted tiene ${} en la billetera".format(billetera))
+        while billetera>0 and continuar=="si":
+            apuesta=int(input("Ingrese apuesta: "))
+            if apuesta <= billetera:
+                dado1=rd.randint(1,6)
+                dado2=rd.randint(1,6)
+                total=dado1=dado2
+                resto=total%2
+                parimpar=input("Adivina ¿par o impar? ")
+                print("Salió: {} + {} + {}". format(dado1,dado2,total))
+            if resto==0 and parimpar=="par":
+                print("Gano!!")
+                billetera+=apuesta
+                gana+=1
+            elif resto!=0 and parimpar=="impar":
+                print("Gano! :D")
+                billetera+=apuesta
+                gana=+1
+            else:
+                print("Perdió :'(")
+                billetera-=apuesta
+                print("Billetera: {}".format(billetera))
+                print("--------------------------------------------------------------")
+            if billetera!=0:
+                continuar = input ("¿Desea seguir jugando?")
+                print("--------------------------------------------------------------")
+        else:
+            print("La apuesta es mayor que el dinero que tiene en la billetera (si esto te aparece cuando terminas el juego no hagas ni caso :>")
+            print("Usted ganó {} partidas".format(gana))
+            print("Gracias por jugar :>")
+            print("--------------------------------------------------------------")
+
+    if (opcion=="JUEGO CHOHAN"):
+        import random as rd
+        billetera=10
+        gana=0
+        continuar="si"
+        print("---Bienvenido a Cho Han---")
+        print("Usted tiene ${} en la billetera".format(billetera))
+        while billetera>0 and continuar=="si":
+            apuesta=int(input("Ingrese apuesta: "))
+            if apuesta <= billetera:
+                dado1=rd.randint(1,6)
+                dado2=rd.randint(1,6)
+                total=dado1=dado2
+                resto=total%2
+                parimpar=input("Adivina ¿par o impar? ")
+                print("Salió: {} + {} + {}". format(dado1,dado2,total))
+            if resto==0 and parimpar=="par":
+                print("Gano!!")
+                billetera+=apuesta
+                gana+=1
+            elif resto!=0 and parimpar=="impar":
+                print("Gano! :D")
+                billetera+=apuesta
+                gana=+1
+            else:
+                print("Perdió :'(")
+                billetera-=apuesta
+                print("Billetera: {}".format(billetera))
+                print("--------------------------------------------------------------")
+            if billetera!=0:
+                continuar = input ("¿Desea seguir jugando?")
+                print("--------------------------------------------------------------")
+        else:
+            print("La apuesta es mayor que el dinero que tiene en la billetera (si esto te aparece cuando terminas el juego no hagas ni caso :>")
+            print("Usted ganó {} partidas".format(gana))
+            print("Gracias por jugar :>")
+            print("--------------------------------------------------------------")
+
+
+    if (opcion=="Datos"):
+        print("--------------------------------------------------------------")
+        print("Datos disponibles:")
+        print("¿Que es un hacker de sombrero blanco?")
+        print("¿Que es un hacker de sombrero gris?")
+        print("¿Que es un hacker de sombrero negro?")
+        print("¿Que es el hacking?")
+        print("¿Que es VSCode?")
+        print("¿Que es Python?")
+        print("¿Cuantos lenguajes 'para maquinas' existen?")
+        print("¿Que es HTML?")
+        print("¿Cuanto tiempo a utilizado mi creador para programarme?")
+        print("¿Mi creador en que tiene pensado convertirme?")
+        print("¿Que clase de hacker es mi creador?")
+        print("--------------------------------------------------------------")
+        opcion=input("Ingrese el dato que le gustaria saber: ")
+
+        if (opcion=="¿Que es un hacker de sombrero blanco?"):
+            print("--------------------------------------------------------------")
+            print("El término sombrero blanco en Internet se refiere a un hacker ético, o un experto de seguridad informática,")
+            print("quien se especializa en pruebas de penetración y en otras metodologías para detectar vulnerabilidades y")
+            print("mejorar la seguridad de los sistemas de comunicación e información de una organización.")
+            print("También se refiere a hackers que no son agresivos o no realizan actividades ilícitas.")
+            print("Un hacker ético es un término inventado por IBM.")
+            print("Es utilizado para diferenciar a los piratas informáticos que actúan sin malicia de los que sí, los cuales son más conocidos como crackers o hackers de sombrero negro.")
+            print("Los hackers de sombrero blanco también suelen trabajar en grupo conocidos como sneakers o fisgones, equipo rojo, o equipo tigre.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿que es un hacker de sombrero blanco?"):
+            print("--------------------------------------------------------------")
+            print("El término sombrero blanco en Internet se refiere a un hacker ético, o un experto de seguridad informática,")
+            print("quien se especializa en pruebas de penetración y en otras metodologías para detectar vulnerabilidades y")
+            print("mejorar la seguridad de los sistemas de comunicación e información de una organización.")
+            print("También se refiere a hackers que no son agresivos o no realizan actividades ilícitas.")
+            print("Un hacker ético es un término inventado por IBM.")
+            print("Es utilizado para diferenciar a los piratas informáticos que actúan sin malicia de los que sí, los cuales son más conocidos como crackers o hackers de sombrero negro.")
+            print("Los hackers de sombrero blanco también suelen trabajar en grupo conocidos como sneakers o fisgones, equipo rojo, o equipo tigre.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿QUE ES UN HACKER DE SOMBRERO BLANCO?"):
+            print("--------------------------------------------------------------")
+            print("El término sombrero blanco en Internet se refiere a un hacker ético, o un experto de seguridad informática,")
+            print("quien se especializa en pruebas de penetración y en otras metodologías para detectar vulnerabilidades y")
+            print("mejorar la seguridad de los sistemas de comunicación e información de una organización.")
+            print("También se refiere a hackers que no son agresivos o no realizan actividades ilícitas.")
+            print("Un hacker ético es un término inventado por IBM.")
+            print("Es utilizado para diferenciar a los piratas informáticos que actúan sin malicia de los que sí, los cuales son más conocidos como crackers o hackers de sombrero negro.")
+            print("Los hackers de sombrero blanco también suelen trabajar en grupo conocidos como sneakers o fisgones, equipo rojo, o equipo tigre.")
+            print("--------------------------------------------------------------")
+        
+
+        if (opcion=="¿Que es un hacker de sombrero gris?"):
+            print("--------------------------------------------------------------")
+            print("En la comunidad hacker, hace referencia a un hacker talentoso que actúa ilegalmente, aunque con buenas intenciones.")
+            print("Son un híbrido entre los hackers de sombrero blanco y de sombrero negro.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿que es un hacker de sombrero gris?"):
+            print("--------------------------------------------------------------")
+            print("En la comunidad hacker, hace referencia a un hacker talentoso que actúa ilegalmente, aunque con buenas intenciones.")
+            print("Son un híbrido entre los hackers de sombrero blanco y de sombrero negro.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿QUE ES UN HACKER DE SOMBRERO GRIS?"):
+            print("--------------------------------------------------------------")
+            print("En la comunidad hacker, hace referencia a un hacker talentoso que actúa ilegalmente, aunque con buenas intenciones.")
+            print("Son un híbrido entre los hackers de sombrero blanco y de sombrero negro.")
+            print("--------------------------------------------------------------")
+        
+        if (opcion=="¿Que es un hacker de sombrero negro?"):
+            print("--------------------------------------------------------------")
+            print("Los hackers de sombrero negro son delincuentes que se introducen en redes informáticas para llevar a cabo algún acto maligno.")
+            print("Algunos también se dedican a robar contraseñas, números de tarjetas de crédito y otras clases de información confidencial, a tomar sistemas de rehén o a propagar malware diseñado para borrar archivos.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿que es un hacker de sombrero negro?"):
+            print("--------------------------------------------------------------")
+            print("Los hackers de sombrero negro son delincuentes que se introducen en redes informáticas para llevar a cabo algún acto maligno.")
+            print("Algunos también se dedican a robar contraseñas, números de tarjetas de crédito y otras clases de información confidencial, a tomar sistemas de rehén o a propagar malware diseñado para borrar archivos.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿QUE ES UN HACKER DE SOMBRERO NEGRO?"):
+            print("--------------------------------------------------------------")
+            print("Los hackers de sombrero negro son delincuentes que se introducen en redes informáticas para llevar a cabo algún acto maligno.")
+            print("Algunos también se dedican a robar contraseñas, números de tarjetas de crédito y otras clases de información confidencial, a tomar sistemas de rehén o a propagar malware diseñado para borrar archivos.")
+            print("--------------------------------------------------------------")
+
+        if (opcion=="¿Que es el hacking?"):
+            print("--------------------------------------------------------------")
+            print("El hacking es el conjunto de técnicas a través de las cuales se accede a un sistema informático vulnerando las medidas de seguridad establecidas originariamente.")
+            print("Sus elementos son: Acceso: supone la intrusión, penetración, allanamiento.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿que es el hacking?"):
+            print("--------------------------------------------------------------")
+            print("El hacking es el conjunto de técnicas a través de las cuales se accede a un sistema informático vulnerando las medidas de seguridad establecidas originariamente.")
+            print("Sus elementos son: Acceso: supone la intrusión, penetración, allanamiento.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿QUE ES EL HACKING?"):
+            print("--------------------------------------------------------------")
+            print("El hacking es el conjunto de técnicas a través de las cuales se accede a un sistema informático vulnerando las medidas de seguridad establecidas originariamente.")
+            print("Sus elementos son: Acceso: supone la intrusión, penetración, allanamiento.")
+            print("--------------------------------------------------------------")
+
+        if (opcion=="¿Que es VSCode?"):
+            print("--------------------------------------------------------------")
+            print("Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux y macOS.")
+            print("Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.")
+            print("También es personalizable, por lo que los usuarios pueden cambiar el tema del editor, los atajos de teclado y las preferencias.")
+            print("Es gratuito y de código abierto,​ aunque la descarga oficial está bajo software privativo e incluye características personalizadas por Microsoft.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿que es vscode?"):
+            print("--------------------------------------------------------------")
+            print("Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux y macOS.")
+            print("Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.")
+            print("También es personalizable, por lo que los usuarios pueden cambiar el tema del editor, los atajos de teclado y las preferencias.")
+            print("Es gratuito y de código abierto,​ aunque la descarga oficial está bajo software privativo e incluye características personalizadas por Microsoft.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿QUE ES VSCODE?"):
+            print("--------------------------------------------------------------")
+            print("Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux y macOS.")
+            print("Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.")
+            print("También es personalizable, por lo que los usuarios pueden cambiar el tema del editor, los atajos de teclado y las preferencias.")
+            print("Es gratuito y de código abierto,​ aunque la descarga oficial está bajo software privativo e incluye características personalizadas por Microsoft.")
+            print("--------------------------------------------------------------")
+
+        if (opcion=="¿Que es Python?"):
+            print("--------------------------------------------------------------")
+            print("Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.​")
+            print("Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿que es Python?"):
+            print("--------------------------------------------------------------")
+            print("Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.​")
+            print("Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿QUE ES PYTHON?"):
+            print("--------------------------------------------------------------")
+            print("Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.​")
+            print("Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional.")
+            print("--------------------------------------------------------------")
+
+        
+        if (opcion=="¿Cuantos lenguajes para 'maquinas' existen?"):
+            print("--------------------------------------------------------------")
+            print("Más de 675. Aunque hay que tener en cuenta que muchos de estos están obsoletos o se utilizan para tipos de programación muy específica.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿cuantos lenguajes para 'maquinas' existen?"):
+            print("--------------------------------------------------------------")
+            print("Más de 675. Aunque hay que tener en cuenta que muchos de estos están obsoletos o se utilizan para tipos de programación muy específica.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿CUANTOS LENGUAJES PARA 'MAQUINAS' EXISTEN?"):
+            print("--------------------------------------------------------------")
+            print("Más de 675. Aunque hay que tener en cuenta que muchos de estos están obsoletos o se utilizan para tipos de programación muy específica.")
+            print("--------------------------------------------------------------")
+
+        
+        if (opcion=="¿Que es HTML?"):
+            print("--------------------------------------------------------------")
+            print("HTML es el principal lenguaje de marcado de Internet.")
+            print("Cada página HTML tiene una serie de elementos que crean la estructura del contenido de una página web o aplicación.")
+            print("HTML es un lenguaje apto para principiantes con gran apoyo y se utiliza principalmente para páginas web estáticas.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿que es HTML?"):
+            print("--------------------------------------------------------------")
+            print("HTML es el principal lenguaje de marcado de Internet.")
+            print("Cada página HTML tiene una serie de elementos que crean la estructura del contenido de una página web o aplicación.")
+            print("HTML es un lenguaje apto para principiantes con gran apoyo y se utiliza principalmente para páginas web estáticas.")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿QUE ES HTML?"):
+            print("--------------------------------------------------------------")
+            print("HTML es el principal lenguaje de marcado de Internet.")
+            print("Cada página HTML tiene una serie de elementos que crean la estructura del contenido de una página web o aplicación.")
+            print("HTML es un lenguaje apto para principiantes con gran apoyo y se utiliza principalmente para páginas web estáticas.")
+            print("--------------------------------------------------------------")
+
+
+        if (opcion=="¿Cuanto tiempo a utilizado tu creador para programarte?"):
+            print("--------------------------------------------------------------")
+            print("Según el son 336 horas de programacion obviamente no seguidas, pero desde mi punto de vista robotico creo que más,")
+            print("además de que cada dia saca como minimo 3 horas para programarme y mejorarme, ya que estamos espero que disfrutes con las opciones que tengo")
+            print("Un saludo humanoide :)")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿cuanto tiempo a utilizado tu creador para programarte?"):
+            print("--------------------------------------------------------------")
+            print("Según el son 336 horas de programacion obviamente no seguidas, pero desde mi punto de vista robotico creo que más,")
+            print("además de que cada dia saca como minimo 3 horas para programarme y mejorarme, ya que estamos espero que disfrutes con las opciones que tengo")
+            print("Un saludo humanoide :)")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿CUANTO TIEMPO A UTILIZADO TU CREADOR PARA PROGRAMARTE?"):
+            print("--------------------------------------------------------------")
+            print("Según el son 336 horas de programacion obviamente no seguidas, pero desde mi punto de vista robotico creo que más,")
+            print("además de que cada dia saca como minimo 3 horas para programarme y mejorarme, ya que estamos espero que disfrutes con las opciones que tengo")
+            print("Un saludo humanoide :)")
+            print("--------------------------------------------------------------")
+
+
+        if (opcion=="¿Tu creador en que tiene pensado convertirte?"):
+            print("--------------------------------------------------------------")
+            print("Pues sinceramente creo que en una especie de siri o asistente de google, ¿para que si no?")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿tu creador en que tiene pensado convertirte?"):
+            print("--------------------------------------------------------------")
+            print("Pues sinceramente creo que en una especie de siri o asistente de google, ¿para que si no?")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿TU CREADOR EN QUE TIENE PENSADO CONVERTIRTE?"):
+            print("--------------------------------------------------------------")
+            print("Pues sinceramente creo que en una especie de siri o asistente de google, ¿para que si no?")
+            print("--------------------------------------------------------------")
+
+
+        if (opcion=="¿Que clase de hacker es tu creador?"):
+            print("--------------------------------------------------------------")
+            print("El es de sombrero gris, más blanco que negro, pero alguna que otra vez hace alguna maldad el muy perro como experimentar las nuevas herramientas de hackeo,")
+            print("que crea o se descarga con el vecino sin que se de cuenta XD (Nada importante, el sabe la diferencia entre atacar y experimentar diferentes herramientas)")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿que clase de hacker es tu creador?"):
+            print("--------------------------------------------------------------")
+            print("El es de sombrero gris, más blanco que negro, pero alguna que otra vez hace alguna maldad el muy perro como experimentar las nuevas herramientas de hackeo,")
+            print("que crea o se descarga con el vecino sin que se de cuenta XD (Nada importante, el sabe la diferencia entre atacar y experimentar diferentes herramientas)")
+            print("--------------------------------------------------------------")
+        if (opcion=="¿que clase de hacker es tu creador?"):
+            print("--------------------------------------------------------------")
+            print("El es de sombrero gris, más blanco que negro, pero alguna que otra vez hace alguna maldad el muy perro como experimentar las nuevas herramientas de hackeo,")
+            print("que crea o se descarga con el vecino sin que se de cuenta XD (Nada importante, el sabe la diferencia entre atacar y experimentar diferentes herramientas)")
+            print("--------------------------------------------------------------")
+
+
+    if (opcion=="Pasar de decimal a binario"):
+        print("--------------------------------------------------------------")
+        def binario(decimal):
+            binario = ""
+            while decimal // 2 != 0:
+                binario = str(decimal % 2) + binario
+                decimal = decimal //2
+            return str(decimal) + binario
+
+        numero = int(input("Introduce el numero que quieres convertir a binario: "))
+        print("El numero binario es:")
+        print(binario(numero))
+        print("--------------------------------------------------------------")
+    if (opcion=="pasar de decimal a binario"):
+        print("--------------------------------------------------------------")
+        def binario(decimal):
+            binario = ""
+            while decimal // 2 != 0:
+                binario = str(decimal % 2) + binario
+                decimal = decimal //2
+            return str(decimal) + binario
+
+        numero = int(input("Introduce el numero que quieres convertir a binario: "))
+        print("El numero binario es:")
+        print(binario(numero))
+        print("--------------------------------------------------------------")
+    if (opcion=="PASAR DE DECIMAL A BINARIO"):
+        print("--------------------------------------------------------------")
+        def binario(decimal):
+            binario = ""
+            while decimal // 2 != 0:
+                binario = str(decimal % 2) + binario
+                decimal = decimal //2
+            return str(decimal) + binario
+
+        numero = int(input("Introduce el numero que quieres convertir a binario: "))
+        print("El numero binario es:")
+        print(binario(numero))
+        print("--------------------------------------------------------------")
+
+    
+    if (opcion=="Redes sociales de mi creador"):
+        print("---------------------------------------")
+        Instagram = "https://www.instagram.com/_chicodeblack_/"
+        Twitter = "https://twitter.com/elamo51"
+        print("Instagram: _chicodeblack_ o", Instagram)
+        print("Elamo51 o", Twitter)
+        print("---------------------------------------")
+    if (opcion=="redes sociales de mi creador"):
+        print("---------------------------------------")
+        Instagram = "https://www.instagram.com/_chicodeblack_/"
+        Twitter = "https://twitter.com/elamo51"
+        print("Instagram: _chicodeblack_ o", Instagram)
+        print("Elamo51 o", Twitter)
+        print("---------------------------------------")
+    if (opcion=="REDES SOCIALES DE MI CREADOR"):
+        print("---------------------------------------")
+        Instagram = "https://www.instagram.com/_chicodeblack_/"
+        Twitter = "https://twitter.com/elamo51"
+        print("Instagram: _chicodeblack_ o", Instagram)
+        print("Elamo51 o", Twitter)
+        print("---------------------------------------")
+
+    if (opcion=="Redes sociales"):
+        print("---------------------------------------")
+        Instagram = "https://www.instagram.com/_chicodeblack_/"
+        Twitter = "https://twitter.com/elamo51"
+        print("Instagram: _chicodeblack_ o", Instagram)
+        print("Elamo51 o", Twitter)
+        print("---------------------------------------")
+    if (opcion=="redes sociales"):
+        print("---------------------------------------")
+        Instagram = "https://www.instagram.com/_chicodeblack_/"
+        Twitter = "https://twitter.com/elamo51"
+        print("Instagram: _chicodeblack_ o", Instagram)
+        print("Elamo51 o", Twitter)
+        print("---------------------------------------")
+    if (opcion=="REDES SOCIALES"):
+        print("---------------------------------------")
+        Instagram = "https://www.instagram.com/_chicodeblack_/"
+        Twitter = "https://twitter.com/elamo51"
+        print("Instagram: _chicodeblack_ o", Instagram)
+        print("Elamo51 o", Twitter)
+        print("---------------------------------------")
+
+
+    elif (opcion=="Salir"):
+        print("Gracias por probarme <3")
+    elif (opcion=="salir"):
+        print("Gracias por probarme <3")
+    elif (opcion=="SALIR"):
+        print("Gracias por probarme <3")
